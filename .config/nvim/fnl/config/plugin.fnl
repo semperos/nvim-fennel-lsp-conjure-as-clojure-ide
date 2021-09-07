@@ -31,9 +31,9 @@
   ;clojure
   :Olical/conjure {:branch :master :mod :conjure}
   ;file searching
-  :nvim-telescope/telescope.nvim {:requires [:nvim-lua/popup.nvim
-                                             :nvim-lua/plenary.nvim]
-                                  :mod :telescope}
+  ;; :nvim-telescope/telescope.nvim {:requires [:nvim-lua/popup.nvim
+  ;;                                            :nvim-lua/plenary.nvim]
+  ;;                                 :mod :telescope}
   ;parsing system
   :nvim-treesitter/nvim-treesitter {:run ":TSUpdate"
                                     :mod :treesitter}
@@ -45,4 +45,68 @@
                                 :PaterJason/cmp-conjure]
                      :mod :cmp}
   ;theme
-  :projekt0n/github-nvim-theme {:mod :theme})
+  :projekt0n/github-nvim-theme {:mod :theme}
+  
+  ;; Daniel's custom
+
+  ;; Show Git index status in Vim's gutter.
+  :airblade/vim-gitgutter {}
+  ;; Jump to lines/chars with ease.
+  :easymotion/vim-easymotion {:mod :easymotion}
+  ;; S-expression editing, including text objects.
+  :guns/vim-sexp {:mod :sexp}
+  ;; Terraform syntax support.
+  :hashivim/vim-terraform {}
+  ;; List Git branches and act on them.
+  :idanarye/vim-merginal {}
+  ;; Automatically insert matching delimiters.
+  :jiangmiao/auto-pairs {:mod :auto-pairs}
+  ;; FZF for searching of all kinds
+  :junegunn/fzf {:mod :fzf}
+  :junegunn/fzf.vim {}
+  ;; LaTeX support.
+  :lervag/vimtex {}
+  ;; Better overall Vim defaults.
+  :liuchengxu/vim-better-default {:mod :better-default}
+  ;; Visualizer for undo tree, can also be used to jump.
+  :mbbill/undotree {} ;; {:mod :undotree}
+  ;; JavaScript support.
+  :pangloss/vim-javascript {}
+  ;; Trim trailing whitespace, but not in csv files.
+  :semperos/vim-strip-trailing-whitespace {}
+  ;; Comment stuff out.
+  :tpope/vim-commentary {}
+  ;; Git UI for Vim
+  :tpope/vim-fugitive {:mod :fugitive}
+  ;; Make . repeat plugin actions natively. Extensible.
+  :tpope/vim-repeat {}
+  ;; S-expression navigation and editing mappings.
+  :tpope/vim-sexp-mappings-for-regular-people {}
+  ;; Keep indentation in files consistent.
+  :tpope/vim-sleuth {}
+  ;; Surround selections and text objects with delimiters.
+  :tpope/vim-surround {}
+  ;; Mappings for up/down left/right on/off commands.
+  :tpope/vim-unimpaired {}
+  ;; Press - anywhere and get the directory listing.
+  :tpope/vim-vinegar {}
+  ;; Enable to test startup time with :StartupTime
+  :tweekmonster/startuptime.vim {}
+  ;; Zig language support.
+  :ziglang/zig.vim {}
+  )
+
+;; (module dotfiles.plugin.fugitive
+;;   {autoload {util dotfiles.util}})
+;;
+;; (util.nnoremap :gs "Git")
+;; (util.nnoremap :gb "Git blame")
+;; (util.nnoremap :gd "Gdiff")
+;; (util.nnoremap :gp "Git push")
+;; (util.nnoremap :gl "Git pull")
+;; (util.nnoremap :gf "Git fetch")
+;; (util.nnoremap :gcc "Git commit --verbose")
+;; (util.nnoremap :gca "Git commit --all --verbose")
+;; (util.nnoremap :gdl "diffget LOCAL")
+;; (util.nnoremap :gdr "diffget REMOTE")
+
