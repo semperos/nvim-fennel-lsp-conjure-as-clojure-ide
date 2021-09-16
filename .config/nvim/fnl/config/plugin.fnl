@@ -45,7 +45,8 @@
                                 :PaterJason/cmp-conjure]
                      :mod :cmp}
   ;theme
-  :projekt0n/github-nvim-theme {:mod :theme}
+  ;; :projekt0n/github-nvim-theme {:mod :theme}
+  :srcery-colors/srcery-vim {:mod :srcery}
   
   ;; Daniel's custom
 
