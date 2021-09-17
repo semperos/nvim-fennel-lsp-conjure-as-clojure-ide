@@ -31,9 +31,8 @@
   ;clojure
   :Olical/conjure {:branch :master :mod :conjure}
   ;file searching
-  ;; :nvim-telescope/telescope.nvim {:requires [:nvim-lua/popup.nvim
-  ;;                                            :nvim-lua/plenary.nvim]
-  ;;                                 :mod :telescope}
+  :nvim-telescope/telescope.nvim {:requires [:nvim-lua/popup.nvim
+                                             :nvim-lua/plenary.nvim]}
   ;parsing system
   :nvim-treesitter/nvim-treesitter {:run ":TSUpdate"
                                     :mod :treesitter}
