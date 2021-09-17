@@ -45,14 +45,16 @@
                      :mod :cmp}
   ;theme
   ;; :projekt0n/github-nvim-theme {:mod :theme}
-  :srcery-colors/srcery-vim {:mod :srcery}
+  ;; :srcery-colors/srcery-vim {:mod :srcery}
+  :shaunsingh/doom-vibrant.nvim {:mod :doom}
   
   ;; Daniel's custom
 
   ;; Show Git index status in Vim's gutter.
   :airblade/vim-gitgutter {}
   ;; Jump to lines/chars with ease.
-  :easymotion/vim-easymotion {:mod :easymotion}
+  ;; :easymotion/vim-easymotion {:mod :easymotion}
+  :phaazon/hop.nvim {:mod :hop}
   ;; S-expression editing, including text objects.
   :guns/vim-sexp {:mod :sexp}
   ;; Terraform syntax support.
