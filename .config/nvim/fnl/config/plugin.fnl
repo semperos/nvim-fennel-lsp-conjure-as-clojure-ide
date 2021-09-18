@@ -45,10 +45,11 @@
                      :mod :cmp}
   ;theme
   ;; :projekt0n/github-nvim-theme {:mod :theme}
-  ;; :srcery-colors/srcery-vim {:mod :srcery}
-  :shaunsingh/doom-vibrant.nvim {:mod :doom}
   
   ;; Daniel's custom
+
+  ;; :srcery-colors/srcery-vim {:mod :srcery}
+  :shaunsingh/doom-vibrant.nvim {:mod :doom}
 
   ;; Show Git index status in Vim's gutter.
   :airblade/vim-gitgutter {}
