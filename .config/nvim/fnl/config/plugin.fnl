@@ -53,6 +53,7 @@
 
   ;; Show Git index status in Vim's gutter.
   :airblade/vim-gitgutter {}
+  :bakpakin/janet.vim {}
   ;; Jump to lines/chars with ease.
   ;; :easymotion/vim-easymotion {:mod :easymotion}
   :phaazon/hop.nvim {:mod :hop}
@@ -71,6 +72,8 @@
   :lervag/vimtex {}
   ;; Better overall Vim defaults.
   :liuchengxu/vim-better-default {:mod :better-default}
+  ;; Popup showing available key bindings
+  :liuchengxu/vim-which-key {}
   ;; Visualizer for undo tree, can also be used to jump.
   :mbbill/undotree {} ;; {:mod :undotree}
   ;; JavaScript support.
