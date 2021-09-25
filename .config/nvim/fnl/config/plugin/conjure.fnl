@@ -7,6 +7,7 @@
 
 ;; ----- Daniel's Customizations -----
 
+(set nvim.g.conjure#client#clojure#nrepl#connection#auto_repl#enabled true)
 (set nvim.g.conjure#eval#result_register "*")
 (set nvim.g.conjure#log#botright true)
 (set nvim.g.conjure#highlight#enabled true) ; default false
