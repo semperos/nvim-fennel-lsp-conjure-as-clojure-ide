@@ -48,8 +48,11 @@
   
   ;; Daniel's custom
 
-  ;; :srcery-colors/srcery-vim {:mod :srcery}
-  :shaunsingh/doom-vibrant.nvim {:mod :doom}
+  ;; :srcery-colors/srcery-vim {:mod :srcery} ; colors a bit too intense
+  ;; :shaunsingh/doom-vibrant.nvim {:mod :doom} ; leading quote invisible in Clojure files
+  ;; :drewtempelmeyer/palenight.vim {:mod :palenight} ; green and red of keywords and strings looks like Christmas in Clojure files
+  ;; :morhetz/gruvbox {:mod :gruvbox} ; puke colored strings in Clojure
+  :semperos/nord.nvim {:mod :nord} ; fork of shaunsingh
 
   ;; Show Git index status in Vim's gutter.
   :airblade/vim-gitgutter {}
