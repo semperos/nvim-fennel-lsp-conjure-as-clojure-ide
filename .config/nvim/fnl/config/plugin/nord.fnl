@@ -2,4 +2,4 @@
   {autoload {nvim aniseed.nvim}
    require-macros [config.macros]})
 
-(_: colorscheme :nord)
+(_ex colorscheme :nord)

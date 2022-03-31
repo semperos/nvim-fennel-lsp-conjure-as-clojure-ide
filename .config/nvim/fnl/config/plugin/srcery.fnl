@@ -3,12 +3,12 @@
    require-macros [config.macros]})
 
 (defn colorscheme-fixes []
-  (_: hi :SpellBad :gui=underline)
-  (_: hi :SpellLocal :gui=underline)
-  (_: hi :SpellRare :gui=underline))
+  (_ex hi :SpellBad :gui=underline)
+  (_ex hi :SpellLocal :gui=underline)
+  (_ex hi :SpellRare :gui=underline))
 
 (augroup srcery_colorscheme_fixes
   (autocmd :ColorScheme :srcery (viml->fn colorscheme-fixes)))
 
-(_: colorscheme :srcery)
+(_ex colorscheme :srcery)
 

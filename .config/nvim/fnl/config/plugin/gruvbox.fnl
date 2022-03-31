@@ -2,4 +2,4 @@
   {autoload {nvim aniseed.nvim}
    require-macros [config.macros]})
 
-(_: colorscheme :gruvbox)
+(_ex colorscheme :gruvbox)

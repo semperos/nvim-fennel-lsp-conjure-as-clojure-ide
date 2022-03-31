@@ -10,7 +10,7 @@
  (fn [...]
    `(nvim.ex.autocmd ,...))
 
- :_:
+ :_ex
  (fn [name ...]
    `((. nvim.ex ,(tostring name)) ,...))
 

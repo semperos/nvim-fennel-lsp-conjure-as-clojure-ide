@@ -71,6 +71,8 @@
   ;; FZF for searching of all kinds
   :junegunn/fzf {:mod :fzf}
   :junegunn/fzf.vim {}
+  ;; Paredit
+  :kovisoft/paredit {}
   ;; LaTeX support.
   :lervag/vimtex {}
   ;; Better overall Vim defaults.
@@ -101,6 +103,8 @@
   :tpope/vim-vinegar {}
   ;; Enable to test startup time with :StartupTime
   :tweekmonster/startuptime.vim {}
+  ;; Common Lisp
+  :vlime/vlime {:rtp "vim/"}
   ;; Zig language support.
   :ziglang/zig.vim {}
   )
